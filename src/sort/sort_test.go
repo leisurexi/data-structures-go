@@ -9,3 +9,9 @@ func TestBubbleSort(t *testing.T) {
 	bubbleSort(array)
 	t.Log(array)
 }
+
+func TestInsertSort(t *testing.T) {
+	array := []int{6, 5, 6, 3, 2, 1}
+	insertionSort(array)
+	t.Log(array)
+}
